@@ -3,8 +3,6 @@
 
 #define Trig 13
 #define Echo 12
-
-
 LiquidCrystal_I2C lcd(0x27,16,2);
 
 void setup()
@@ -12,7 +10,6 @@ void setup()
   Serial.begin(9600);  //초당9600비트를 전송
   pinMode(Trig, OUTPUT);//13번 핀을 아웃풋
   pinMode(Echo, INPUT); //12번 핀을 인풋
-  
   lcd.init();
   lcd.backlight();
   lcd.print("LCD init");
