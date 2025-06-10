@@ -62,7 +62,8 @@ $ sudo make install
 ```
 $ motelist
 ```
-<img src="/temp/1.PNG">
+![1](https://github.com/user-attachments/assets/24481a38-becb-4abd-b64d-93145f3c375b)
+
 
 ### 기본 미들웨어 소스코드 다운
 ```
